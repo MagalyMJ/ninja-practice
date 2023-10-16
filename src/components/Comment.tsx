@@ -9,7 +9,7 @@ export const Comment = ({ comment }: { comment: CommentType }) => {
       <Grid container>
         <Grid item xs={10}>
           <Typography variant="subtitle1" align="left">
-            {comment.name}
+            {`${comment.name}:${comment.email}}`}
           </Typography>
         </Grid>
         <Grid item xs={2}>
